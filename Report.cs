@@ -4,10 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+
 namespace CMP1903M_Assessment_1_Base_Code
 {
-    class Report
+    public class Report
     {
+        public int[] analyseText(string Text)
+        string Text = Input.text
 
 
         String[] sentences = Text.Split('.');
@@ -31,10 +35,10 @@ namespace CMP1903M_Assessment_1_Base_Code
         foreach(String character in characters){
             
             if(character.ToCar.IsUpper){
-                numberOfUpperCase++
+                numberOfUpperCase++;
             }
             else if(character.ToCar.IsLower){
-                numberOfLowerCase++
+                numberOfLowerCase++;
             }
             
         }
